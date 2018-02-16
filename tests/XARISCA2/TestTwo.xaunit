@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XaUnit xmlns="http://www.xact.dk/xatester/v/1" xmlns:data="http://www.xact.dk/xatester/data/v/1" componentNameUnderTest="xarisca2">
+  <Description />
+  <Component id="xarisca2" label="XARISCA2" moduleName="XARISCA2" programExitVerify="value &lt; 8" rollback="false">
+    <Data>
+      <import>
+        <agecount>2</agecount>
+        <agetable>
+          <filler>
+            <age>10</age>
+          </filler>
+          <filler>
+            <age>20</age>
+          </filler>
+          <filler>
+            <age />
+          </filler>
+          <filler>
+            <age />
+          </filler>
+          <filler>
+            <age />
+          </filler>
+        </agetable>
+      </import>
+      <export>
+        <risccount />
+        <riscmessage />
+        <risctable>
+          <filler>
+            <risc expected="20" />
+          </filler>
+          <filler>
+            <risc expected="60" />
+          </filler>
+          <filler>
+            <risc />
+          </filler>
+          <filler>
+            <risc />
+          </filler>
+          <filler>
+            <risc />
+          </filler>
+        </risctable>
+      </export>
+    </Data>
+  </Component>
+  <ExtensionData />
+  <Tags />
+  <MetaData>
+    <Component name="XARISCA2" type="COBOL">
+      <INOUT>
+        <import>
+          <agecount type="NumericBinary" length="4" bytes="2" signed="true" decimals="0" />
+          <agetable>
+            <filler count="5">
+              <age type="NumericDisplay" length="3" bytes="3" signed="false" decimals="0" />
+            </filler>
+          </agetable>
+        </import>
+        <export>
+          <risccount type="NumericBinary" length="4" bytes="2" signed="true" decimals="0" />
+          <riscmessage type="Character" length="64" bytes="64" />
+          <risctable>
+            <filler count="5">
+              <risc type="NumericDisplay" length="3" bytes="3" signed="false" decimals="0" />
+            </filler>
+          </risctable>
+        </export>
+      </INOUT>
+    </Component>
+  </MetaData>
+</XaUnit>

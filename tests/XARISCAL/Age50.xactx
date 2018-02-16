@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ExecutionContext xmlns="http://www.xact.dk/xatester/v/1" environment="simulator" logLevel="LOG" remote="false" useSimulations="true" uploadResult="false" timeout="300" readTimeout="30" jobInfoInterval="3" repositoryId="5a84a97cdaf5721a1f698d68" iscc="true" cclevel="Line" cctag="" ccAccessType="FTP">
+  <ExtensionData />
+  <ExtensionData componentName="xariscal" componentId="59393e788d51ac2a1d97a45f">
+    <Parameter key="db2id">
+      <Value>DB2ID</Value>
+    </Parameter>
+    <Parameter key="sourcelibrary">
+      <Value>XATESTER.SIMU.COBOL</Value>
+    </Parameter>
+    <Parameter key="db2plan">
+      <Value>DBAG</Value>
+    </Parameter>
+    <Parameter key="loadlibrary">
+      <Value>XATESTER.SIMU.LOAD</Value>
+    </Parameter>
+    <Parameter key="sourcelibraries">
+      <Value>XATESTER.SIMU.COBCOPY</Value>
+    </Parameter>
+    <Parameter key="callinterface">
+      <Value>NONE</Value>
+    </Parameter>
+  </ExtensionData>
+  <XaUnit path="Age50.xaunit" />
+</ExecutionContext>

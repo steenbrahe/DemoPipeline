@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XaUnit xmlns="http://www.xact.dk/xatester/v/1" xmlns:data="http://www.xact.dk/xatester/data/v/1" componentNameUnderTest="xariscal">
+  <Description />
+  <Variable id="data" filePath="AllAges_data.xls" />
+  <IterateData id="loop" referencedId="data" dataPath="">
+    <Component id="xariscal" label="XARISCAL" moduleName="XARISCAL" programExitVerify="value &lt; 8" rollback="false">
+      <Data>
+        <import>
+          <customer>
+            <age>=loop.testcase.age_input</age>
+          </customer>
+        </import>
+        <export>
+          <risc expected="=loop.testcase.risc_expected" />
+        </export>
+      </Data>
+    </Component>
+  </IterateData>
+  <ExtensionData />
+  <Tags />
+  <MetaData>
+    <Component name="XARISCAL" type="COBOL">
+      <INOUT>
+        <import>
+          <customer>
+            <age type="NumericDisplay" length="3" bytes="3" signed="false" decimals="0" />
+          </customer>
+        </import>
+        <export>
+          <risc type="NumericDisplay" length="3" bytes="3" signed="false" decimals="0" />
+        </export>
+      </INOUT>
+    </Component>
+  </MetaData>
+</XaUnit>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XaSuite xmlns="http://www.xact.dk/xatester/v/1" name="Generated suite for folder: DemoPipeline" environmentId="simulator" haltAtFailure="false">
+  <Description>Generated suite by XaTester CLI for folder on server: /Users/steenbrahe/DemoCLI/DemoPipeline</Description>
+  <XaUnits>
+    <Path>tests/XARISCA2/TestTwo.xactx</Path>
+    <Path>tests/XARISCAL/complex/AllAges.xactx</Path>
+    <Path>tests/XARISCAL/Age20.xactx</Path>
+    <Path>tests/XARISCAL/Age50.xactx</Path>
+    <Path>tests/XARISCAL/Age10.xactx</Path>
+  </XaUnits>
+</XaSuite>
