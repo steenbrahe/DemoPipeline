@@ -9,7 +9,7 @@
         </customer>
       </import>
       <export>
-        <risc expected="20" />
+        <risc expected="21" />
       </export>
     </Data>
   </Component>
