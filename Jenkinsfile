@@ -19,8 +19,22 @@ ls -la
       }
     }
     stage('Deploy') {
-      steps {
-        echo 'Deploy step'
+      parallel {
+        stage('Deploy') {
+          steps {
+            echo 'Deploy step'
+          }
+        }
+        stage('Sonar scan') {
+          steps {
+            echo 'Scan source/tests for Sonar Qube'
+          }
+        }
+        stage('Notify') {
+          steps {
+            echo 'Send email'
+          }
+        }
       }
     }
   }
