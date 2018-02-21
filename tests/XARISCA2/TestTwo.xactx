@@ -7,13 +7,10 @@
     <Parameter key="rollback" />
     <Parameter key="db2id" />
     <Parameter key="amode24" />
-    <Parameter key="sourcelibrary" />
     <Parameter key="db2plan" />
-    <Parameter key="loadlibraries" />
-    <Parameter key="submodules" />
+    <Parameter key="sourcelibrary" />
     <Parameter key="loadlibrary" />
     <Parameter key="sourcelibraries" />
-    <Parameter key="copybooknames" />
     <Parameter key="callinterface" />
   </ExtensionData>
   <XaUnit path="TestTwo.xaunit" />
