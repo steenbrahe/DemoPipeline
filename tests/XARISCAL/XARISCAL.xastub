@@ -1,0 +1,24 @@
+<Simulation xmlns="http://www.xact.dk/xatester/v/1" name="XARISCAL">
+  <Output>
+    <Import>
+      <Customer>
+        <Age>10</Age>
+      </Customer>
+    </Import>
+    <Export>
+      <Risc>21</Risc>
+    </Export>
+  </Output>
+  <Metadata>
+    <Container>
+      <Import native="01 Import.">
+        <Customer native="03 Customer.">
+          <Age type="NumericDisplay" length="3" bytes="3" native="05 Age pic 9(03)." signed="false" decimals="0"></Age>
+        </Customer>
+      </Import>
+      <Export native="01 Export.">
+        <Risc type="NumericDisplay" length="3" bytes="3" native="03 Risc pic 9(03)." signed="false" decimals="0"></Risc>
+      </Export>
+    </Container>
+  </Metadata>
+</Simulation>
