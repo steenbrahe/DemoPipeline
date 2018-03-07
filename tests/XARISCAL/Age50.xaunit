@@ -12,9 +12,6 @@
         <risc expected="200" />
       </export>
     </Data>
-    <Subcomponents calltype="dynamic">
-      <Mockup moduleName="XARISCAL" path="XARISCAL.xastub" />
-    </Subcomponents>
   </Component>
   <ExtensionData />
   <Tags />
