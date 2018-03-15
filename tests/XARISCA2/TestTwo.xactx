@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ExecutionContext xmlns="http://www.xact.dk/xatester/v/1" environment="simulator" logLevel="LOG" remote="false" useSimulations="true" uploadResult="false" timeout="300" readTimeout="30" debuggerType="CODECOVERAGE" jobInfoInterval="3" repositoryId="5a84a6cadaf5721a1f698d55" cclevel="Line" cctag="" ccAccessType="FTP">
+<ExecutionContext xmlns="http://www.xact.dk/xatester/v/1" environment="simulator" logLevel="LOG" remote="false" useSimulations="true" uploadResult="false" timeout="300" readTimeout="30" debuggerType="NONE" jobInfoInterval="3">
   <ExtensionData>
     <Parameter key="key" />
   </ExtensionData>
