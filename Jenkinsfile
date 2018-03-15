@@ -19,7 +19,7 @@ cp /opt/xatester/cli/*.jar .
 cp /opt/xatester/cli/*.sh .
 echo "Content of ws dir:"
 ls -la
-./xatestercli.sh -e simulator -f . --recursive -G -S COBOL -s https://192.168.186.130 -u XATUSER -p 123456 -x -g TestResults'''
+./xatestercli.sh -e simulator -f . --recursive -G -S COBOL -s https://192.168.186.130:8447 -u XATUSER -p 123456 -x -g TestResults'''
         junit(testResults: 'TestResults/JUnitReport.xml', healthScaleFactor: 10)
       }
     }
