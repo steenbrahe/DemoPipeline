@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ExecutionContext xmlns="http://www.xact.dk/xatester/v/1" environment="simulator" logLevel="LOG" remote="false" useSimulations="true" uploadResult="false" timeout="300" readTimeout="30" jobInfoInterval="3" repositoryId="5a84a97fdaf5721a1f698d6b" iscc="true" cclevel="Line" cctag="" ccAccessType="FTP">
+<ExecutionContext xmlns="http://www.xact.dk/xatester/v/1" environment="simulator" logLevel="LOG" remote="false" useSimulations="true" uploadResult="false" timeout="300" readTimeout="30" debuggerType="CODECOVERAGE" jobInfoInterval="3" repositoryId="5a84a97fdaf5721a1f698d6b" cclevel="Line" cctag="" ccAccessType="FTP">
   <ExtensionData>
     <Parameter key="key" />
   </ExtensionData>
   <ExtensionData componentName="xariscal" componentId="59393e788d51ac2a1d97a45f">
-    <Parameter key="rollback" />
     <Parameter key="db2id" />
-    <Parameter key="amode24" />
-    <Parameter key="db2plan" />
     <Parameter key="sourcelibrary" />
+    <Parameter key="db2plan" />
     <Parameter key="loadlibrary" />
     <Parameter key="sourcelibraries" />
     <Parameter key="callinterface" />
