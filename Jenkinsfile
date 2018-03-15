@@ -10,11 +10,11 @@ pipeline {
       steps {
         sh '''echo "Current dir: "
 pwd
-cp /Users/steenbrahe/workspaces/eclipse-oxygen/XaTesterOnHost/build/libs/*.jar .
-cp /Users/steenbrahe/workspaces/eclipse-oxygen/XaTesterOnHost/build/libs/*.sh .
+cp /opt/xatester/cli/*.jar .
+cp /opt/xatester/cli/*.sh .
 echo "Content of dir:"
 ls -la
-./xatestercli.sh -e simulator -f . --recursive -G -S COBOL -s https://192.168.186.131 -u XATUSER -p 123456 -x -g TestResults'''
+./xatestercli.sh -e simulator -f . --recursive -G -S COBOL -s https://192.168.186.130 -u XATUSER -p 123456 -x -g TestResults'''
         junit(testResults: 'TestResults/JUnitReport.xml', healthScaleFactor: 10)
       }
     }
