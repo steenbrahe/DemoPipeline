@@ -5,11 +5,13 @@
   </ExtensionData>
   <ExtensionData componentName="xariscal" componentId="59393e788d51ac2a1d97a45f">
     <Parameter key="db2id" />
-    <Parameter key="sourcelibrary" />
     <Parameter key="db2plan" />
+    <Parameter key="sourcelibrary" />
+    <Parameter key="sysdebuglibraries" />
     <Parameter key="loadlibrary" />
     <Parameter key="sourcelibraries" />
     <Parameter key="callinterface" />
+    <Parameter key="listinglibraries" />
   </ExtensionData>
   <XaUnit path="Age50.xaunit" />
 </ExecutionContext>
