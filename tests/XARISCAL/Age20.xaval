@@ -3,7 +3,7 @@
   <Result>
     <XaUnit xmlns="http://www.xact.dk/xatester/v/1" xmlns:data="http://www.xact.dk/xatester/data/v/1">
       <Description />
-      <Component id="xariscal" label="XARISCAL" moduleName="XARISCAL" programExitVerify="value &lt; 8" programExit="1" rollback="false">
+      <Component id="xariscal" label="XARISCAL" moduleName="XARISCAL" programExitVerify="value &lt; 8" programExit="1" rollback="false" description="Age is 20 - just a decription">
         <Data>
           <import>
             <customer>

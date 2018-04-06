@@ -20,11 +20,11 @@
       <INOUT>
         <import>
           <customer>
-            <age type="NumericDisplay" length="3" bytes="3" signed="false" decimals="0" />
+            <age type="NumericDisplay" length="3" bytes="3" inOutType="INPUT" boundaryValues="0,17,18,19,49,50,51" signed="false" decimals="0" />
           </customer>
         </import>
         <export>
-          <risc type="NumericDisplay" length="3" bytes="3" signed="false" decimals="0" />
+          <risc type="NumericDisplay" length="3" bytes="3" inOutType="OUTPUT" signed="false" decimals="0" />
         </export>
       </INOUT>
     </Component>
