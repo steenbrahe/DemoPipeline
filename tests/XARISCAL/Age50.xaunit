@@ -5,11 +5,11 @@
       <Data>
         <import>
           <customer>
-            <age>51</age>
+            <age>50</age>
           </customer>
         </import>
         <export>
-          <risc expected="204" />
+          <risc expected="200" />
         </export>
       </Data>
     </Component>
